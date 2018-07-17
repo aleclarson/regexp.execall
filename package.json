@@ -1,44 +1,19 @@
 {
-  "name": "regexp.execall",
-  "version": "1.0.2",
-  "description": "Array of RegExp.prototype.exec results",
-  "author": "Eugene Sharygin <eush77@gmail.com>",
+  "name": "@cush/execall",
+  "version": "1.0.0",
   "license": "MIT",
+  "repository": "https://github.com/aleclarson/regexp.execall.git",
+  "description": "Array of RegExp.prototype.exec results",
   "scripts": {
     "test": "mocha --require should test"
   },
-  "homepage": "https://github.com/eush77/regexp.execall",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eush77/regexp.execall"
-  },
-  "bugs": {
-    "url": "https://github.com/eush77/regexp.execall/issues"
-  },
-  "keywords": [
-    "regex",
-    "regexp",
-    "re",
-    "regular",
-    "expression",
-    "exec",
-    "match",
-    "matches",
-    "execall",
-    "all",
-    "find",
-    "findall",
-    "immutable",
-    "string",
-    "str",
-    "multiple",
-    "many",
-    "global"
-  ],
-  "dependencies": {},
   "devDependencies": {
     "mocha": "^1.21.5",
     "object.assign": "^2.0.1",
     "should": "^4.0.4"
-  }
+  },
+  "contributors": [
+    "Alec Larson",
+    "Eugene Sharygin <eush77@gmail.com>"
+  ]
 }
